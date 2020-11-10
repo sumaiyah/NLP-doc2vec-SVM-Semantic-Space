@@ -1,0 +1,237 @@
+Model name: model1.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 91.00%
+
+Model name: model2.model
+dm 1 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 84.50%
+
+Model name: model3.model
+dm 0 vector_size 50 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 89.50%
+
+Model name: model4.model
+dm 0 vector_size 150 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 88.00%
+
+Model name: model5.model
+dm 0 vector_size 150 epochs 10 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 89.50%
+
+Model name: model6.model
+dm 0 vector_size 150 epochs 30 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 88.00%
+
+Model name: random_good.model
+dm 0 vector_size 300 epochs 100 min_count 1 sample 1e-05 workers 4 negative 5 window 15
+Accuracy: 81.5%
+
+Model name: model6.model
+dm 0 vector_size 300 epochs 20 min_count 5 sample 1e-05 workers 4 negative 5 hs 0 window 15
+Accuracy: 84.00%
+
+Model name: model7.model
+dm 0 vector_size 300 epochs 100 min_count 1 sample 1e-05 workers 4 negative 5 hs 0 window 15
+Accuracy: 79.50%
+
+Model name: model8.model
+dm 0 vector_size 300 epochs 25 min_count 5 sample 1e-05 workers 4 negative 5 hs 0 window 15 alpha 0.01 min_alpha 0.0001 dbow_words 0
+Accuracy: 72.00%
+
+Model name: model9.model
+dm 0 vector_size 300 epochs 25 min_count 5 sample 1e-05 workers 4 negative 5 hs 0 window 15 alpha 0.01 min_alpha 0.0001 dbow_words 1
+Accuracy: 81.00%
+
+
+Model name: model_10.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 90%
+
+Model name: model_11.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 89.5%
+
+Model name: model_12.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 90%
+
+Model name: model_13.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_14.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 dbow_words 1 Accuracy: ADD ACCURACY!!
+
+Model name: model_15.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_16.model
+dm 0 vector_size 150 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_4.model
+dm 0 vector_size 150 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_5.model
+dm 0 vector_size 150 epochs 10 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_17.model
+dm 0 vector_size 150 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 alpha 0.01 min_alpha 0.0001
+Accuracy: 79.50%
+
+Model name: model_18.model
+dm 0 vector_size 150 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 alpha 0.01 min_alpha 0.001
+Accuracy: 79.50%
+
+Model name: model_19.model
+dm 0 vector_size 150 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 dbow_words 1
+Accuracy: 79.00%
+
+Model name: model_20.model
+dm 0 vector_size 150 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 dbow_words 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_21.model
+dm 0 vector_size 400 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 window 10 dbow_words 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_30.model
+dm 1 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 window 6 dm_concat 1 dbow_words 0
+Accuracy: 77
+
+model 25 is model1 repepated and changed window=5 and vector size=200
+
+Model name: model_25.model
+dm 0 vector_size 200 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 seed 0 window 5 dm_concat 0 dbow_words 0
+Accuracy: 84.50%
+
+----------------------------------------------------------------------------------------------------------
+TESTING BEST MODEL TUNING PARAMETERS WITH NORMAL STEMMED DATA
+Best model: dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+
+Model name: model_101.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 window 5
+Accuracy: 84.5
+
+Model name: model_102.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 window 5
+Accuracy: 83
+
+Model name: model_103.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 window 5
+Accuracy: 81
+
+Model name: model_104.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 84.50%
+
+----------------------------------------------------------------------------------------------------------
+TESTING BEST MODEL TUNING PARAMETERS WITH UNSTEMMED Large DATASET and UNSTEMMED Small DATASET
+Model name: model_105.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 window 5
+Accuracy: 84
+
+Model name: model_106.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 window 5
+Accuracy: 84.5
+
+Model name: model_107.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 83.50%
+
+Model name: model_108.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0
+Accuracy: 82.50%
+
+Model name: model_109.model
+dm 0 vector_size 100 epochs 20 min_count 4 sample 0 workers 4 negative 5 hs 0
+Accuracy: 84.00%
+
+Model name: model_110.model
+dm 0 vector_size 100 epochs 20 min_count 8 sample 0 workers 4 negative 5 hs 0
+Accuracy: ADD ACCURACY!!
+
+Model name: model_111.model
+dm 0 vector_size 100 epochs 20 min_count 5 sample 0 workers 4 negative 5 hs 0
+Accuracy: 83.50%
+
+Model name: model_112.model
+dm 0 vector_size 150 epochs 20 min_count 5 sample 0 workers 4 negative 5 hs 0
+Accuracy: 83.5
+
+
+----------------------------------------------------------------------------------------------
+repeating model_109 testing better hyper parameters
+Model name: model_113.model
+dm 0 vector_size 100 epochs 30 min_count 4 sample 0 workers 4 negative 5 hs 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_114.model
+dm 0 vector_size 100 epochs 40 min_count 4 sample 0 workers 4 negative 5 hs 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_120.model
+dm 0 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 Accuracy: ADD ACCURACY!!
+
+Model name: model_121.model
+dm 1 vector_size 100 epochs 20 min_count 2 sample 0 workers 4 negative 5 hs 0 window 10 alpha 0.05 Accuracy: ADD ACCURACY!!
+
+Model name: model_123.model
+dm 0 vector_size 100 epochs 20 min_count 4 sample 0 workers 4 negative 5 hs 0
+Accuracy: 83.50%
+
+Model name: model_124.model
+dm 0 vector_size 100 epochs 20 min_count 4 sample 0 workers 4 negative 5 hs 0 Accuracy: 83.50%
+
+Model name: model_125.model
+dm 0 vector_size 100 epochs 20 min_count 4 sample 0 workers 4 negative 5 hs 0 Accuracy: 83.50%
+
+Model name: model_126.model
+dm 0 vector_size 150 epochs 20 min_count 4 sample 0 workers 4 negative 5 hs 0 
+Accuracy: ADD ACCURACY!!
+
+Model name: model_127.model
+dm 0 vector_size 150 epochs 20 min_count 3 sample 0 workers 4 negative 5 hs 0 
+Accuracy: ADD ACCURACY!!
+
+Model name: model_128.model
+dm 0 vector_size 100 epochs 20 min_count 3 sample 0 workers 4 negative 5 hs 0 
+Accuracy: ADD ACCURACY!!
+
+Model name: model_130.model
+dm 0 vector_size 1000 epochs 20 min_count 4 sample 0 workers 4 negative 5 hs 0 
+Accuracy: ADD ACCURACY!!
+
+Model name: model_131.model
+dm 0 vector_size 1000 epochs 20 min_count 4 sample 0 workers 4 negative 5 hs 0 
+Accuracy: ADD ACCURACY!!
+
+==========================================================================================
+Testing best results:
+DBOW        - model_200
+DMC
+DMM
+DBOW + DMC
+DBOW + DMM
+
+
+
+Model name: model_200.model
+dm 0 vector_size 100 epochs 10 min_count 4 workers 4 negative 5 hs 0 
+Accuracy: 84%
+
+Model name: model_201.model
+dm 0 vector_size 100 epochs 20 min_count 4 workers 4 negative 5 hs 0 
+Accuracy: 83.50%
+
+========================================================================================================
+
+
+Model name: model_202.model
+dm 0 vector_size 150 epochs 40 min_count 4 workers 4 negative 4 hs 0 alpha 0.028 min_alpha 0.0001 sample 0 ns_exponent 0.75 
+Accuracy: 85.5
+
+============================================================
+with pos tagging
+Model name: model_300.model
+dm 0 vector_size 100 epochs 20 min_count 4 workers 4 negative 5 hs 0 sample 0 
+Accuracy: ADD ACCURACY!!
+
+Model name: model_301.model
+dm 0 vector_size 100 epochs 40 min_count 4 workers 4 negative 5 hs 0 sample 0 
+Accuracy: ADD ACCURACY!!
+
