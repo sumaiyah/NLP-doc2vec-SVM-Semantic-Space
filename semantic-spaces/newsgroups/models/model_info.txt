@@ -1,0 +1,5 @@
+model_1.model
+{'dm': 0, 'vector_size': 100, 'epochs': 20, 'min_count': 4, 'workers': 4, 'negative': 5, 'hs': 0, 'sample': 0}
+clean: {'stem': False, 'rem_punc': False, 'stop': False, 'sent': False, 'lemmatize': False}model_2.model
+{'dm': 0, 'vector_size': 100, 'epochs': 20, 'min_count': 4, 'workers': 4, 'negative': 5, 'hs': 0, 'sample': 0}
+clean: {'stem': True, 'rem_punc': True, 'stop': True, 'lemmatize': False}
