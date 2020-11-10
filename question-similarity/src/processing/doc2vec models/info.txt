@@ -1,0 +1,20 @@
+model_1.model
+{'dm': 0, 'vector_size': 100, 'epochs': 20, 'min_count': 4, 'workers': 4, 'negative': 5, 'hs': 0, 'sample': 0}
+Accuracy: 94.2
+
+model_2.model
+{'dm': 0, 'vector_size': 100, 'epochs': 40, 'min_count': 4, 'workers': 4, 'negative': 5, 'hs': 0, 'sample': 0}
+Accuracy: 99.4
+
+model_3.model
+{'dm': 0, 'vector_size': 100, 'epochs': 40, 'min_count': 4, 'workers': 4, 'negative': 5, 'hs': 0, 'sample': 0}
+Accuracy: 99.4
+
+model_4.model
+{'dm': 0, 'vector_size': 100, 'epochs': 30, 'min_count': 1, 'workers': 4, 'negative': 5, 'hs': 0, 'sample': 0}
+Accuracy: 
+
+model_4.model
+{'dm': 0, 'vector_size': 100, 'epochs': 30, 'min_count': 1, 'workers': 4, 'negative': 5, 'hs': 0, 'sample': 0}
+Accuracy: 
+

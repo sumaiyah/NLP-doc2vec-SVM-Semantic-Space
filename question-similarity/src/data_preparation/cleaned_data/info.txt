@@ -1,0 +1,3 @@
+cleaned_data/clean_data_1.txt
+parameters: OrderedDict([('remove_stopwords', True), ('stem', True), ('regex_clean', True), ('lemmatize', False)])
+
